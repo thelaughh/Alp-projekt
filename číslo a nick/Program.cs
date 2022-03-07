@@ -7,6 +7,7 @@ for (int i=0;i<4; i++)
     Console.WriteLine("Zadej jméno uživatele");
     string Jmeno = Console.ReadLine();
     Console.WriteLine("Zadej cislo uživatele");
+    Console.WriteLine("Číslo musí být dlouhé jen 9 znaků");
     string Cislo = Console.ReadLine();
     slovník.Add(Jmeno, Cislo);
 }
